@@ -2,7 +2,7 @@
 
 A fact can stay fixed while knowledge about an observation changes. This is a separate bounded action-model product inspector. The original sequential public-announcement inspector and Boolean disclosure atlas retain their schemas and semantics.
 
-[Interactive event inspector](https://midya8.github.io/epistemlab/events.html)
+[Interactive event inspector](https://midya8.github.io/common-knowledge/events.html)
 
 ## Exact contract
 

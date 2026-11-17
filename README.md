@@ -1,4 +1,4 @@
-# EpistemLab
+# Common knowledge
 
 A dependency-free finite multi-agent knowledge workbench. Inspect every supplied
 world, every information partition, every subformula truth set and every public
@@ -20,7 +20,7 @@ a truthful announcement need not remain true after its own update.
 
 ## Boolean disclosure atlas
 
-The separate [live disclosure atlas](https://midya8.github.io/epistemlab/disclosures.html) enumerates every world restriction for up to eight worlds, but counts only focus-truthful Boolean-definable announcements as solutions. Equal-valuation worlds cannot be separated by any Boolean formula over the supplied atoms. Actual obstruction pairs and canonical defining DNF cubes expose the distinction.
+The separate [live disclosure atlas](https://midya8.github.io/common-knowledge/disclosures.html) enumerates every world restriction for up to eight worlds, but counts only focus-truthful Boolean-definable announcements as solutions. Equal-valuation worlds cannot be separated by any Boolean formula over the supplied atoms. Actual obstruction pairs and canonical defining DNF cubes expose the distinction.
 
 The default control has two inclusion-maximal solutions retaining two and three worlds; only the latter is maximum-retained. Another has two diagnostic successes but no Boolean solution. More disclosure can destroy an ignorance goal. These are exact supplied-model results, not minimum formula size, information leakage, general planning or APAL/BAPAL logic. See [DISCLOSURES.md](DISCLOSURES.md) for the separate schema and contract.
 
@@ -114,7 +114,7 @@ At v0.2, disclosure reproduction added seven Python tests (14 total), four Node 
 
 ## S5 event-model product updates
 
-The limits above describe the original sequential/public-disclosure inspectors. A separate [event update inspector](https://midya8.github.io/epistemlab/events.html) now distinguishes uncertainty about a world from uncertainty about which informational event occurred. In the original read/may-idle control, the receiver learns p while the observer does not know whether the receiver learned. Treating the event as public would incorrectly make that nested knowledge and common knowledge of p true.
+The limits above describe the original sequential/public-disclosure inspectors. A separate [event update inspector](https://midya8.github.io/common-knowledge/events.html) now distinguishes uncertainty about a world from uncertainty about which informational event occurred. In the original read/may-idle control, the receiver learns p while the observer does not know whether the receiver learned. Treating the event as public would incorrectly make that nested knowledge and common knowledge of p true.
 
 Inspect every world/event candidate, precondition result, inherited valuation, product partition, both component conditions for every arrow, projected event/world possibilities, complete static modal atlas and separately labeled public-announcement counterfactual. Equal preconditions do not merge event copies. A nonempty global product need not contain the designated point; its post-event focus values are null rather than false or vacuous.
 
